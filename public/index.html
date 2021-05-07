@@ -1,17 +1,473 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The World In Your Hand </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+             <!-- ======= Hero Section ======= -->
+             <div class="wrap">
+                <section id="hero">
+                          <div class="hero-container" data-aos="fade-up">
+                            <h1>Start your new  experience with <span></span></h1>
+                            <h2>We are team of talanted designers making websites </h2>
+                            <a href="#home" class="btn-get-started scrollto">Get Started</a>
+                    </section>
+                </div>
+         <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+            <div class="logo mr-auto">
+                <h1 class="text-light"><a href="index.html"><span>The World In Your Hand</span></a></h1>
+                
+              </div>
+         <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="drop-down">
+                    <a href="About.html">About</a> 
+                <ul>
+                    <li><a href="About.html#team">Team</a></li>
+                    <li><a href="About.html#testimonials">Testimonials</a></li>
+                </ul>
+                </li>
+                <li><a href="Clothes/Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Account.html">Account</a></li> 
+                <li class="cart"><a href="cart.html"><i class="fas fa-cart-plus"><span>0</span></i></a> </li>     
+                <li><a href="prfile.html"><i class="far fa-user-circle"></i></a></li>
+            </ul>
+        </nav>
+
+  </div>
+</header>
+<br> <br>
+         <!-- ======= About Section ======= -->
+         <section id="home" class="about">
+          <div class="container">
+  
+            <div class="row">
+              <div style="background-image: url(image/about.jpg)" data-aos="fade-right" class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+              <div class="col-xl-7 pt-4 pt-lg-0 d-flex align-items-stretch">
+                <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                  <h3>Offer the fun you deserve</h3>
+                  <p>
+                      I’ve been thinking of you this week and how you deserve to have a little fun.
+                  </p>
+                  <div class="row">
+                    <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+                      <i class="fas fa-receipt"></i>
+                      <h4>Features</h4>
+                      <p>Our site is characterized by easy access to the product, adherence to the deadline and providing all the products required for the customer so that we will always be in the best image</p>
+                    </div>
+                    <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                      <i class="fas fa-tachometer-alt"></i>
+                      <h4>Time saving</h4>
+                      <p> Our goal is to improve life, save time, save time for the customer, and provide the best products in the easiest way in the shortest possible time, so that we will always be in the best way.  </p>
+                    </div>
+                    <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+                      <i class="fas fa-images"></i>
+                      <h4>Photo features</h4>
+                      <p>Facilitating the customer's task in obtaining the required product with the required quality</p>
+                    </div>
+                    <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="400">
+                      <i class="fas fa-shield-alt"></i>
+                      <h4>Idiosyncrasy</h4>
+                      <p>We care to protect the privacy of the customer so that we will always be in the best way</p>
+                    </div>
+                  </div>
+                </div><!-- End .content-->
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- End About Section -->
+        <!-- slideshow -->
+        <br> <br> <br>
+        <div class="slideshow-container">
+          <center><h1 class="title"> Portfolio</h1><br> </center>
+  
+          <div class="mySlides fade">
+            <img src="image/ma4ro3/clothes/clo21.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/lab accessories/lacc12.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/mobile/mob3.jpg" style="width:300px; height:400px;">
+  
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="image/ma4ro3/shoes/sho10.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/mobile accessories/macc11.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/lab/lab3.jpg" style="width:300px; height:400px;">
+  
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="image/ma4ro3/accessories/acc13.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/lab/lab8.jpg" style="width:300px; height:400px;">
+            <img src="image/ma4ro3/mobile accessories/macc17.jpg" style="width:300px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+              <img src="image/ma4ro3/toy/toy10.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/clothes/clo3.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/mobile/mob10.jpg" style="width:300px; height:400px;">
+            </div>
+            <div class="mySlides fade">
+              <img src="image/ma4ro3/lab/lab9.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/lab accessories/lacc14.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/accessories/acc15.jpg" style="width:300px; height:400px;">
+            </div>
+            <div class="mySlides fade">
+              <img src="image/ma4ro3/clothes/clo49.jpg" style="width:300px ;height:400px;">
+              <img src="image/ma4ro3/mobile accessories/macc16.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/mobile/mob5.jpg" style="width:300px; height:400px;">
+            </div>
+            <div class="mySlides fade">
+              <img src="image/ma4ro3/clothes/clo63.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/lab/lab2.jpg" style="width:300px; height:400px;">
+              <img src="image/ma4ro3/accessories/acc29.jpg" style="width:300px; height:400px;">
+            </div>
+          
+      </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          <br><br> 
+          <!-- Featured Starts Here -->
+           <div class="small-container">
+               <h1 class="title">Featured Products </h1>
+               <div class="row">
+                   <div class="col-4">
+                       <img src="image/shops/product-1.jpg" >
+                     <h4>Red Printed T-shirt </h4>
+                     <div class="info">
+                      <div class="inf">
+                    <a class="add-cart cart1" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                   </div>
+                   </div>
+                       <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </div>
+                       <p>50.00$</p>
+                   </div>
+                   <div class="col-4">
+                      <img src="image/shops/product-2.jpg" >
+                      <h4 >Red Printed T-shirt </h4>
+                      <div class="info">
+                        <div class="inf">
+                      <a class="add-cart cart2" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                     </div>
+                     </div>
+                      <div class="rating">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                      </div>
+                      <p>50.00$</p>
+                  </div>
+                  <div class="col-4">
+                      <img src="image/shops/product-3.jpg" >
+                      <h4>Red Printed T-shirt </h4>
+                      <div class="info">
+                        <div class="inf">
+                      <a class="add-cart cart3" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                     </div>
+                     </div>
+                      <div class="rating">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <i class="far fa-star"></i>
+                      </div>
+                      <p>50.00$</p>
+                  </div>
+                  <div class="col-4">
+                      <img src="image/shops/product-4.jpg" >
+                      <h4>Red Printed T-shirt </h4>
+                      <div class="info">
+                        <div class="inf">
+                      <a  class="add-cart cart4" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                     </div>
+                     </div>
+                      <div class="rating">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <p>50.00$</p>
+                  </div>
+                  <div class="col-4">
+                      <img src="image/shops/product-5.jpg" >
+                      <h4>Red Printed T-shirt </h4>
+                      <div class="info">
+                        <div class="inf">
+                      <a class="add-cart cart5" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                     </div>
+                     </div>
+                      <div class="rating">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                      </div>
+                      <p>50.00$</p>
+                  </div>
+                  <div class="col-4">
+                     <img src="image/shops/product-6.jpg" >
+                     <h4 >Red Printed T-shirt </h4>
+                     <div class="info">
+                      <div class="inf">
+                    <a class="add-cart cart6" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                   </div>
+                   </div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </div>
+                     <p>50.00$</p>
+                 </div>
+                 <div class="col-4">
+                     <img src="image/shops/product-7.jpg" >
+                     <h4>Red Printed T-shirt </h4>
+                     <div class="info">
+                      <div class="inf">
+                    <a class="add-cart cart7" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                   </div>
+                   </div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                     </div>
+                     <p>50.00$</p>
+                 </div>
+                 <div class="col-4">
+                     <img src="image/shops/product-8.jpg" >
+                     <h4>Red Printed T-shirt </h4>
+                     <div class="info">
+                      <div class="inf">
+                    <a class="add-cart cart8" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                   </div>
+                   </div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <p>50.00$</p>
+                 </div>
+                 <div class="col-4">
+                  <img src="image/shops/product-9.jpg" >
+                  <h4>Red Printed T-shirt </h4>
+                  <div class="info">
+                    <div class="inf">
+                  <a  class="add-cart cart9" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+                 </div>
+                 </div>
+                  <div class="rating">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+                  <p>50.00$</p>
+              </div>
+              <div class="col-4">
+                 <img src="image/shops/product-10.jpg" >
+                 <h4 >Red Printed T-shirt </h4>
+                 <div class="info">
+                  <div class="inf">
+                <a class="add-cart cart10" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+               </div>
+               </div>
+                 <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+                 <p>50.00$</p>
+             </div>
+             <div class="col-4">
+                 <img src="image/shops/product-11.jpg" >
+                 <h4>Red Printed T-shirt </h4>
+                 <div class="info">
+                  <div class="inf">
+                <a class="add-cart cart11" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+               </div>
+               </div>
+                 <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+                 <p>50.00$</p>
+             </div>
+             <div class="col-4">
+                 <img src="image/shops/product-12.jpg" >
+                 <h4>Red Printed T-shirt </h4>
+                 <div class="info">
+                  <div class="inf">
+                <a class="add-cart cart12" href="#"><span class="fas fa-shopping-cart"></span>Add To Cart</a>
+               </div>
+               </div>
+                 <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <p>50.00$</p>
+             </div>
+   
+               </div>
+           </div>
+        <!-- Featred Ends Here -->
+              <!-- offer -->
+              <h1 class="title"> OFFer</h1>
+              <div class="offer">
+                  <div class="small-container">
+                      <div class="row">
+                          <div class="col-2">
+                             <img src="image/shops/iphone.png"  class="offer-img">
+                          </div>
+                          <div class="col-2">
+                              <p> Exclusively Avaialble on The World In Your Hand</p>
+                              <h1> iphone 12 pre max </h1>
+                              <form action="buyaccount.html"  method="GET">
+                              <button  class="btn"> Buy Now    </button>
+                            </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            
+               <!-- ======= Clients Section ======= -->
+        <section id="clients" class="clients">
+          <div class="container">
+  
+            <div class="row">
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/logo-coca-cola.png" class="img-fluid" alt="" data-aos="zoom-in">
+              </div>
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/logo-godrej.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+              </div>
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/logo-oppo.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+              </div>
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/logo-paypal.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+              </div>
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/logo-philips.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+              </div>
+  
+              <div class="col-lg-2 col-md-4 col-6">
+                <img src="image/client/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+              </div>
+  
+            </div>
+  
+          </div>
+        </section><!-- End Clients Section -->
+       <!--footer-->
+       <footer id="footer">
+
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <h4>Join The World In Your Hand</h4>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+  
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4>The World In Your Hand</h4>
+                <br><br>
+                <p>
+                  <strong>Phone:</strong> 01208961091<br>
+                  <strong>Email:</strong> nadersharf3@gmail.com<br>
+                </p>
+              </div>    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="About.html">About us</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="Clothes/Products.html">Products</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="Contact.html">contact</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="Account.html">Account</a></li>
+                  </ul>
+              </div>   
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Networks</h4>
+                <p>You can contact us in order to easily present a problem you face</p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>       
+      </footer><!-- End Footer -->
+        <script src="js/main.js"></script>
+        <script src="js/cart.js"></script>
+        <script src="js/jquery-3.5.1.slim.min.js"></script> 
+        <script src="js/popper.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+        
+    </body>
 </html>
